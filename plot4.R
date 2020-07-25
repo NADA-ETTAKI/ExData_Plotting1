@@ -38,7 +38,7 @@ legend("topright",
        col = c("black", "red", "blue"),
        lty = 1,
        lwd = 1,
-       cex = 0.8, # scaling
+       cex = 0.95, # scaling
        bty = "n") # no border
 
 # bottom right
@@ -56,6 +56,6 @@ points(data$DateTime, data$Global_reactive_power, pch=".", cex=1.5)
 axis(side = 2,
      at = seq(0.0, 0.5, 0.1),
      gap.axis = 0.1,  # value spacing between axis labels
-     cex.axis = 0.8)  # font scaling
+     cex.axis = 0.97)  # font scaling
 
 dev.off()

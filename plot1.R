@@ -9,6 +9,7 @@ data$Global_active_power <- as.numeric(data$Global_active_power)
 png("plot1.png")
 hist(data$Global_active_power,
      main = "Global Active Power",
-     col = "red",
+     col = "#ff2600", # pasted a screenshot from problem statement,
+                      # into image editor and detected color
      xlab = "Global Active Power (kilowatts)")
 dev.off()
